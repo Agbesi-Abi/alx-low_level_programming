@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - Entry
@@ -13,11 +13,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	a = n % 10;
+	x = n % 10;
 
-	if (a > 5)
+	if (x > 5)
 	{
-		printf("Last digit of %d is %d", n, x);
+		printf("Last digit of %d is %d ", n, x);
 	}
 	if (x == 0)
 	{
