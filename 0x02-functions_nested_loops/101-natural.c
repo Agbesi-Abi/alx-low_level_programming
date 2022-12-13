@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Lists all the natural numbers below 1024 (excluded)
@@ -8,7 +9,7 @@
  */
 int main(void)
 {
-	int main(void)
+	int i, sum = 0;
 
 		for (i = 0; i < 1024; i++)
 		{
